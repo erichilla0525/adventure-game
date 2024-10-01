@@ -19,27 +19,28 @@ body{
     background-color: black;
     color: aliceblue;
     border:2px;
+    width:auto;
 }
 
 #answers{
     display: flex;
     width: 90%;
     margin: 30px;
-    padding:20px;
+    padding:20px 20px;
     background-color: black;
     color: aliceblue;
-    justify-content: space-between;
+    justify-content: center;
+    width:auto;
 }
 
-#answers button{
+#answers button {
+    margin: 0 30px;
     cursor: pointer;
     background-color:darkred
+    
 }
 
-#answers button:only-child{
-    margin-left: auto;
-    margin-right: auto;
-}
+
 
 #Uldua-creature{
     display:none;
