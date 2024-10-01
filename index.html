@@ -7,16 +7,24 @@
         <link rel="stylesheet" href="styles.css" />
     </head>
     <body>
-        <div id="game-container">
-            <h1 id ="game-title">Your Adventure Game</h1>
-            <div id="question-container">
+        <main id="game-container">
+            <h1 id ="game-title" aria-label="Heading of game">Your Adventure Game</h1>
+            
+            <section id="question-container", aria-label="question from the game">
                 <p id="question">Your adventure begins now...</p>
-            </div>
-            <ul id="answers">
+            </section>
+            
+            <ul id="answers", aria-label="actions answers">
                 <!-- Answer buttons will be injected here by JavaScript -->
             </ul>
-            <img id ="Uldua-creature" src="" alt="Ultua creature"/>
-        </div>
+
+            <figure>
+                <img id ="Uldua-creature" src="" alt="Ultua creature"/>
+            </figure>
+        </main>
         <script src="script.js"></script>
     </body>
 </html>
+
+
+    
