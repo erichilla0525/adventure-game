@@ -3,7 +3,7 @@ gametitle.textContent = 'Mystery of Uldua';
 
 let currentState = 0;
 
-function renderQuestion(){
+function QuestionSwitch(){
     const question = document.getElementById('question');
     const answers = document.getElementById('answers');
     const image = document.getElementById('Uldua-creature');
@@ -87,9 +87,9 @@ function addAnswerButton(text,nextState) {
     button.textContent = text;
     button.onclick = function() {
         currentState = nextState;
-        renderQuestion();
+        QuestionSwitch();
     };
     document.getElementById('answers').appendChild(button);
 }
 
-window.onload = renderQuestion;
+window.onload = QuestionSwitch;
