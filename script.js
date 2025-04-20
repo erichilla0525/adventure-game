@@ -81,7 +81,6 @@ function QuestionSwitch(){
             break
     }
 }
-
 function addAnswerButton(text,nextState) {
     const button = document.createElement('button');
     button.textContent = text;
